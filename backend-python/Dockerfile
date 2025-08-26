@@ -1,5 +1,5 @@
 # Tahap 1: Pilih base image Python yang ringan dan spesifik
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # Tahap 2: Atur direktori kerja di dalam container
 WORKDIR /app
