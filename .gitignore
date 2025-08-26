@@ -22,9 +22,10 @@ get-pip.py
 LICENSE.txt
 *.zip
 
+
 # File environment (berisi rahasia/kunci API)
 .env
-
+.gitignore
 
 # ## Node.js / Frontend ##
 
