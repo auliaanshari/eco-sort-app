@@ -20,6 +20,7 @@ get-pip.py
 *.exe
 *._pth
 LICENSE.txt
+*.zip
 
 # File environment (berisi rahasia/kunci API)
 .env
