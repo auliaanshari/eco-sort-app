@@ -1,0 +1,58 @@
+# ## Python / Backend ##
+
+# Direktori virtual environment
+.venv
+env/
+/backend-python/venv/
+/backend-python/Lib/
+/backend-python/raw/
+/backend-python/Scripts/
+test/
+
+# File cache Python
+__pycache__/
+*.pyc
+*.pyd
+.python-version
+get-pip.py
+*.dll
+*.cat
+*.exe
+*._pth
+LICENSE.txt
+
+# File environment (berisi rahasia/kunci API)
+.env
+
+
+# ## Node.js / Frontend ##
+
+# Folder dependensi (sangat besar!)
+/frontend/node_modules
+
+# Folder hasil build (dibuat otomatis)
+/frontend/dist
+/frontend/build
+
+# File environment lokal
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Log file
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ## Umum (OS & Editor) ##
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor VSCode
+.vscode/
